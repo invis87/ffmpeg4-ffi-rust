@@ -44,7 +44,8 @@ pub const LIBS: &[&str] = &[
     "avformat",
     "avutil",
     "swresample",
-    "swscale"
+    "swscale",
+    "avcodec"
 ];
 
 ///////////////////////////////////////////////////////////////////////////////
