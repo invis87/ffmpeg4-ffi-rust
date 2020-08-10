@@ -38,14 +38,14 @@ fn has_env_var_with_value(s: &str, v: &str) -> bool {
 ///////////////////////////////////////////////////////////////////////////////
 
 pub const LIBS: &[&str] = &[
-    "avcodec",
     "avdevice",
     "avfilter",
     "avformat",
     "avutil",
     "swresample",
     "swscale",
-    "avcodec"
+    "avcodec",
+    "avutil"
 ];
 
 ///////////////////////////////////////////////////////////////////////////////
